@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../containers/Card";
+import Card from "./Card";
 
 /* const Cardlist = ({ robots }) => {
   const cardComponent = robots.map((user, i) => {
@@ -10,6 +10,9 @@ import Card from "../containers/Card";
   return (<>{cardComponent}</>);
 }; */
 const Cardlist = ({ robots }) => {
+  /*  if(true) {
+    throw new Error('Noooo!')
+  } */
   return (
     <>
       {robots.map((user, i) => (
